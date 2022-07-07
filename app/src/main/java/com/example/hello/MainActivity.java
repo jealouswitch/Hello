@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView tv = findViewById(R.id.tv);
         tv.setText("你好aaa!!!!!!!!!!!");
+        tv.setText("你好Rez");
 
         Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
